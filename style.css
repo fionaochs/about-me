@@ -7,6 +7,9 @@
 }
 #quizButton{
     color: darkgreen;
+    width: 13%;
+    height: 50%;
+    font-size: 15px;
 }
 #quizButton:hover{
     color: rgb(135, 160, 206);
@@ -22,7 +25,9 @@ body{
 h1{
     margin: 30px 10px 30px 10px; 
 } 
-
+#results{
+    font-size: 25px;
+}
 p{
     font-size: 20px;
 }

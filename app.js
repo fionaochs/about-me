@@ -44,8 +44,17 @@ quizButton.addEventListener('click', () => {
     if (ifYes(questionThree)) count ++;
 
     if (!ifYes(questionFour)) count ++;
+
+     let percentage = count/4*100;
+     let roundPercent = Math.round(percentage);
+
+
+     if (count === 0) {
+         results.textContent = `Wow ${name}, you don't know me at all. You didn't get any correct, I'm hurt`;
+     } else {
+         results.textContent = `${name}, you got ${count} correct. That's ${roundPercent}%`;
+     };
     
-    results.textContent = `Wow ${name}, you got ${count} correct`;
 
     document.getElementById('results').style.visibility = "visible";
 })
