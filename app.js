@@ -6,7 +6,11 @@ const results = document.getElementById('results');
 quizButton.addEventListener('click', () => {
     console.log("hit button");
 
-    const name = prompt('What\'s your name?');
+    let name = prompt('What\'s your name?');
+    if (name === null || name ===""){
+        alert ('You must enter a name!')
+       let name = prompt('What\'s your name?');
+    }
     const confirmation = confirm(`Hello ${name}, would you like to take a quiz about Fiona?`)
 
     if (confirmation === false) return;
