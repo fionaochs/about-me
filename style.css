@@ -5,16 +5,28 @@
 #results{
     visibility: hidden;
 }
-
+#quizButton{
+    color: darkgreen;
+    width: 13%;
+    height: 50%;
+    font-size: 15px;
+}
 #quizButton:hover{
-    color: rgb(90, 137, 223);
+    color: rgb(135, 160, 206);
     cursor: pointer;
 }
 body{
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     background-image: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg);
-    color: rgb(28, 26, 122);
+    color: rgb(11, 10, 78);
+    font-size: 18px;
+}
+h1{
+    margin: 30px 10px 30px 10px; 
+} 
+#results{
+    font-size: 25px;
 }
 p{
     font-size: 20px;
@@ -24,7 +36,30 @@ ul {
     margin: auto;
 }
 ol {
-    width: 30%;
+    width: 19%;
     margin: auto;
 }
+.fade-in{
+    animation: fadeIn 12s;
 
+}
+#celebrate{
+    background-image: url(https://i.pinimg.com/originals/39/a8/37/39a837195005365809b9156e0dfa0d2a.png);
+    position: absolute;
+    top: 115px;
+    left: 200px;
+    width: 500px;
+    height: 500px;
+    background-size: 500px;
+    visibility: hidden;
+      
+}
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

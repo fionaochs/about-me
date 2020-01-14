@@ -1,11 +1,8 @@
-// IMPORT MODULES under test here:
-// import example from '../src/example.js';
 
 import ifYes from '../if-Yes.js';
 const test = QUnit.test;
 
 test('Yes', assert => {
-
 
     const result = ifYes("Y");
 
@@ -13,7 +10,7 @@ test('Yes', assert => {
 
     const result2 = ifYes("Yes");
     
-    assert.equal(result, true);
+    assert.equal(result2, true);
     
     const resultNo = ifYes("N");
 
