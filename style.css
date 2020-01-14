@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+#results{
+    visibility: hidden;
+}
+
+#quizButton:hover{
+    color: rgb(90, 137, 223);
+    cursor: pointer;
+}
+body{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(https://www.linuxfoundation.org/wp-content/uploads/2016/12/lf_background_trees.jpg);
+    color: rgb(28, 26, 122);
+}
+p{
+    font-size: 20px;
+}
+ul {
+    width: 30%;
+    margin: auto;
+}
+ol {
+    width: 30%;
+    margin: auto;
+}
+
