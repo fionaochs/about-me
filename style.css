@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+.results{
+    visibility: hidden;
+}
+
+#quizButton:hover{
+    color: rgb(90, 137, 223);
+    cursor: pointer;
+}
+body{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
