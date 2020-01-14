@@ -7,9 +7,9 @@ quizButton.addEventListener('click', () => {
     console.log("hit button");
 
     const name = prompt('What\'s your name?');
-    const confirm = confirm(`Hello ${name}, would you like to take a quiz about Fiona?`)
+    const confirmation = confirm(`Hello ${name}, would you like to take a quiz about Fiona?`)
 
-    if (confirm === false) return;
+    if (confirmation === false) return;
 
     const questionOne = prompt('Do I like to travel?'); //answer yes
     const questionTwo = prompt('Am I a fan of live music?'); //answer yes
