@@ -36,12 +36,23 @@ ul {
     margin: auto;
 }
 ol {
-    width: 30%;
+    width: 19%;
     margin: auto;
 }
 .fade-in{
     animation: fadeIn 12s;
 
+}
+#celebrate{
+    background-image: url(https://i.pinimg.com/originals/39/a8/37/39a837195005365809b9156e0dfa0d2a.png);
+    position: absolute;
+    top: 115px;
+    left: 200px;
+    width: 500px;
+    height: 500px;
+    background-size: 500px;
+    visibility: hidden;
+      
 }
 
 @keyframes fadeIn {

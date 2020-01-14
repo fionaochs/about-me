@@ -51,8 +51,11 @@ quizButton.addEventListener('click', () => {
 
      if (count === 0) {
          results.textContent = `Wow ${name}, you don't know me at all. You didn't get any correct, I'm hurt`;
-     } else {
-         results.textContent = `${name}, you got ${count} correct. That's ${roundPercent}%`;
+     } else if (count < 4){
+        results.textContent = `${name}, you got ${count} correct. That's ${roundPercent}%`;
+    } else {
+         results.textContent = `${name}, you got ${count} correct. That's ${roundPercent}%!`;
+         document.getElementById('celebrate').style.visibility = "visible";
      };
     
 
