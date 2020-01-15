@@ -11,6 +11,8 @@ const userInput = document.getElementById('userInput');
 
 let tries = 5;
 let correctNumber = Math.ceil(Math.random()*20);
+// learned from Danny and MDN. math.ceil rounds up, math.random gives us a random number 0 to 1 exclluding 1, we * by 20 to get number between 1 and 20
+
 
 submitButton.addEventListener('click', () =>{
     tries--;
@@ -25,6 +27,7 @@ submitButton.addEventListener('click', () =>{
     console.log(newResults);
     console.log(compNumbers);
     
+
     if (newResults === 0){
         results.textContent = 'You win!';
         guessBox.classList.remove('hidden');

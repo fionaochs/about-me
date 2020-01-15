@@ -1,4 +1,4 @@
-import compareNumbers from './compareNumbers.test.js/index.js';
+import compareNumbers from './compareNumbers.test.js';
 const test = QUnit.test;
 
 test('test numbers are identical', assert => {
@@ -27,3 +27,5 @@ test('test number is too high', assert => {
     
     assert.equal(result, expected);
 });
+
+
