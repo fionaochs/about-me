@@ -28,4 +28,12 @@ test('test number is too high', assert => {
     assert.equal(result, expected);
 });
 
+test('test input is invalid', assert =>{
+    const err = new TypeError('Incorrect input, please guess a number');
+    assert.throws(() => {
+          throw err;
+        });
+
+});
+
 
